@@ -1,0 +1,168 @@
+.jumbotron{
+    height: 710px;
+    background-size: cover;
+    background-image: url('http://www.nesta.org.uk/sites/default/files/digital-man-dreamstime-crop.jpg');
+}
+.jumbotron h1{
+
+    margin-top: 90px;
+    font-size: 170px;
+    padding-left: 7%;
+    font-family: "Montserrat", sans-serif;
+}
+nav {
+    text-align: center;
+    position: fixed;
+    top:0%;
+    left: 0%;
+    background-color: grey;
+    opacity: .5;
+    width: 100%;
+    color: #1E90FF;
+}
+nav ul li a {
+    display:inline-block;
+    padding: 0em 3em;
+    margin-top: 0;
+    font-size: 20px;
+    margin-left: 50px;
+    text-decoration:none;
+    transition-property:all .2s linear 0s;
+    -moz-transition:all .2s linear 0s;
+    -webkit-transition:all .2s linear 0s;
+    -o-transition:all .2s linear 0s;
+    color: #ffffff;
+}
+nav ul li a:hover{
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    text-decoration:none;
+    transition-property:all .2s linear 0s;
+    -moz-transition:all .2s linear 0s;
+    -webkit-transition:all .2s linear 0s;
+    -o-transition:all .2s linear 0s;
+}
+#list ul li {
+   display:inline-block;
+   text-align:center;
+}
+#navo div{
+  display: inline-block;
+}
+.jumbotron h2{
+    margin-left: 15%;
+    color: #ffffff;
+}
+.jumbotron .btn{
+    margin-left: 41%;
+    margin-top: 3%;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 60px;
+    background-color: transparent;
+    border: 3px solid #F5F5F5;
+    color: #F5F5F5;
+}
+.jumbotron .btn:hover{
+    color: #ffffff;
+    border: 3px solid #1E90FF;
+    background-color: #1E90FF;
+    text-shadow:0 0 7px #96CDCD;
+    box-shadow: 0px 3px 11px #1c1c1c;
+    transition: 0.3s all linear;
+}
+.mid-sec{
+    background-color: #1c1c1c;
+    height: 739px;
+}
+.mid-sec h2{
+    color: #EDEDED;
+    margin-top: 0;
+    padding-top: 10%;
+    padding-left: 110px;
+    font-size: 90px;
+    font-family: 'Monserrat', sans-serif;
+}
+.mid-sec h2 span{
+    color: #1E90FF;
+}
+.mid-sec h3{
+    color: #DCDCDC;
+    font-size: 40px;
+    margin-left: 150px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+.fin-sec{
+    background-size: cover;
+    height: 700px;
+    margin-top: 0;
+    background-image: url('http://hanswisbrun.nl/wp-content/uploads/2014/10/cyberspace-1.jpg');
+}
+.fin-sec h3{
+    margin-top: 0px;
+    color: white;
+    font-size: 60px;
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 60px;
+}
+.fin-sec h4{
+    padding-top: 5%;
+    color: white;
+    padding-left: 360px;
+    font-size: 50px;
+}
+.fin-sec h1{
+    font-size: 80px;
+    color: #ffffff;
+    padding-top: 1%;
+    padding-left: 45%;
+}
+.fin-sec h4 span{
+    color: #1e90ff;
+}
+
+/*footer code*/
+#footer {
+    font-family: 'Montserrat', sans-serif;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 280px;
+    background-color: #1c1c1c;
+}
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 1px;
+
+}
+.container .text-muted {
+    margin: 0 0;
+}
+
+
+.col-md-3{
+    margin-top: 30px;
+    color: white;
+}
+.col-md-3 h4 a{
+    color: #fff;
+}
+.col-md-3 h4 a:hover{
+    color: #1e90ff;
+    text-decoration: none;
+    transition-property:all .1s linear 0s;
+    -moz-transition:all .1s linear 0s;
+    -webkit-transition:all .1s linear 0s;
+    -o-transition:all .1s linear 0s;
+}
+.row  a{
+    color: white;
+}
+.row a:hover{
+    color: white;
+    text-decoration: none;
+    color: #1e90ff;
+}
+/*footer code*/
