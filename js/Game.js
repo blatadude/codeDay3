@@ -133,7 +133,7 @@ function update() {
         }
     }
     else {
-      if(engine.key("SPACE")) {
+      if(engine.key("E")) {
           if(score > highscore) {
               engine.keys[32] = false;
           }
@@ -234,7 +234,7 @@ function Player(position, width, height, spritesheet) {
         if(this.falling) {
             if(Math.abs(this.velocity.y) < 16) this.velocity.y += .5;
         }
-        else if(engine.key("SPACE")) {
+        else if(engine.key("E")) {
             this.velocity.y = -10;
         }
 
