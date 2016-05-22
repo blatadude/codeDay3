@@ -257,7 +257,7 @@ function Player(position, width, height, spritesheet) {
         if(x >= 0 && x < world.getWidth() - 1 && y >= 0 && y < world.getHeight() - 1 && world.map[y][x] == 9) {
             complete = true;
             bonus += 100;
-            
+            this.die;
         }
 
         //WORLD LIMIT DEATH CODE
